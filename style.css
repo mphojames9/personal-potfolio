@@ -421,11 +421,14 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
 .portfolio__iteam {
     background: var(--clr-dark);
+    width: 80%;
+    margin: auto;
+    
     /*overflow: hidden; disabled only used for images*/
 }
 
@@ -514,31 +517,10 @@ footer a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 300px) {
+    .portfolio__iteam {
+        width: 65%;
+        margin: 0;
+        /*overflow: hidden; disabled only used for images*/
+    }
+}
