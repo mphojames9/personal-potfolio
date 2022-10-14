@@ -15,7 +15,7 @@
     --clr-light: #fff;
     --clr-drk-light:rgba(237, 240, 243, 0.562);
     --clr-dark: #1f201f;
-    --clr-accent: #8ba85c;
+    --clr-accent: #f31111;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -426,7 +426,7 @@ header {
 
 .portfolio__iteam {
     background: var(--clr-dark);
-    width: 80%;
+    width: 95%;
     margin: auto;
     
     /*overflow: hidden; disabled only used for images*/
@@ -516,6 +516,13 @@ footer a {
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 415px) {
+    .portfolio__iteam {
+        width: 90%;
+        margin: 0;
+        /*overflow: hidden; disabled only used for images*/
+    }
+}
 
 @media screen and (max-width: 300px) {
     .portfolio__iteam {
@@ -524,3 +531,46 @@ footer a {
         /*overflow: hidden; disabled only used for images*/
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
