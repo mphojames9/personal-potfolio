@@ -13,186 +13,180 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo/Logo-img.png" alt="">
-        </div>
-            <div class="menu__button">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__iteam"><a href="#home" class="nav__link">
-                    <i class="fa-sharp fa-solid fa-house"></i>Home</a></li>
-                <li class="nav__iteam"><a href="#services" class="nav__link">
-                    <i class="fa-solid fa-server"></i>My Services</a></li>
-                <li class="nav__iteam"><a href="#about" class="nav__link">
-                    <i class="fa-solid fa-address-card"></i>About me</a></li>
-                <li class="nav__iteam"><a href="#work" class="nav__link">
-                    <i class="fa-solid fa-laptop-file"></i></i>My Work</a></li>
-                <li class="nav__iteam"><a href="#footer" class="nav__link">
-                    <i class="fa-solid fa-phone"></i></i>Contacts</a></li>
+    <div class="hero" id="home">
+        <nav>
+            <h2 class="mainLogo">mphojam<span>es.com</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#footer">Contact </a></li>
             </ul>
+            <a href="#myWork" class="btn">View my work</a>
         </nav>
-    </header>
-    <!--Introduction-->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Mpho Matli</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Front end developer</p>
-        <img src="images/profile2.jpg" alt="a picture of Mpho James Matli" class="intro__img">
-    </section>
 
-    <!--My services-->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__tittle--services">My services</h2>
-        <div class="services">
-        <div class="service">
-            <h3>Websites</h3>
-            <p>I develope and creates websites using web
-                 languages such as HTML, CSS, and JavaScript that allow users to
-                  access and interact with the site.
-            </p>
-            </div><!-- / service -->
-
-        <div class="service">
-            <h3>Basic apps/game</h3>
-            <p>I develop applications for small business, educational apps 
-                for kids and fun games that helps with your child's memory development.
-            </p>
-            </div><!-- / service -->
-
-        <div class="service">
-            <h3>Github</h3>
-            <p>I'm working on open source software which is the awesome way to learn new skills 
-                 and collaborate with bright programmers from whom I can learn a lot.
-            </p>
-            </div><!-- / service -->
-        </div><!-- / services -->
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Mpho <span>Matli</span></h1>
+            <h3>I'am a Web Application Developer.</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Lets Start">
+                </form>
+        </div>
     </div>
+</div>
+<!-- About me -->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">About me</h2>
+    <p class="section__subtitle section__subtitle--about">Experience, skills and dedication</p>
 
-        <a href="#work" class="btn">My work</a>
-        </div>
-    </section>
+    <div class="about-me__body">
+        <p>I have experiace as a senior manager for manufacturing 
+            company, My dedication
+            to mentoring and helping others has helped
+            me create successful teams that support each other.
+        </p>
+        <p>
+            After 7years in manufacturing which includes 5-6years 
+            in leadership, I decided to do what my heart desires.
+            changing my career was one of the best way to get a fresh start as a <strong>Website and Application developer</strong>.
+        </p>
 
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">About me</h2>
-        <p class="section__subtitle section__subtitle--about">Experience, skills and dedication</p>
+        <p>
+            I have strong critical thinking and problem solving 
+            skills with the ability to make suggestions that will help
+            improve functionality in the <strong>technology inderstry</strong>.
+            I have hands on experience designing software applications
+            that meet the technical requirements and functionality. That means
+             for most of your cooding needs, I'm there for you.
 
-        <div class="about-me__body">
-            <p>I have experiace as a senior manager for manufacturing 
-                company, My dedication
-                to mentoring and helping others has helped
-                me create successful teams that support each other.
-            </p>
-            <p>
-                After 7years in manufacturing which includes 5-6years 
-                in leadership, I decided to do what my heart desires.
-                changing my career was one of the best way to get a fresh start as a <strong>Website and Application developer</strong>.
-            </p>
+        <p>
+           <strong>HTML, CSS, </strong>and <strong>JavaScript </strong> are my cooding languages.
+        </p>
+    </div>
+    <img src="images/profile1.jpg" alt="third image" class="about-me__img">
+    <div class="coodingLogo">
+            <img src='logo/html.png'>
+            <img src='logo/css.png'>
+            <img src='logo/js.png'>
+            <img src='logo/node.png'>
+            <img src='logo/npm.png'>
+            <img src='logo/vsc.png'>
+            <img src='logo/git.png'>
+    </div>
+</section>
+ <!--My services-->
+ <section class="my-services" id="services">
+    <h2 class="section__title section__tittle--services">My services</h2>
+    <div class="services">
+    <div class="service">
+        <h3>Websites</h3>
+        <p>I develope and creates websites using web
+             languages such as HTML, CSS, and JavaScript that allow users to
+              access and interact with the site.
+        </p>
+        </div><!-- / service -->
 
-            <p>
-                I have strong critical thinking and problem solving 
-                skills with the ability to make suggestions that will help
-                improve functionality in the <strong>technology inderstry</strong>.
-                I have hands on experience designing software applications
-                that meet the technical requirements and functionality. That means
-                 for most of your cooding needs, I'm there for you.
+    <div class="service">
+        <h3>Basic apps/game</h3>
+        <p>I develop applications for small business, educational apps 
+            for kids and fun games that helps with your child's memory development.
+        </p>
+        </div><!-- / service -->
 
-            <p>
-               <strong>HTML, CSS, </strong>and <strong>JavaScript </strong> are my cooding languages.
-            </p>
-        </div>
-        <img src="images/profile1.jpg" alt="third image" class="about-me__img">
-        <div class="coodingLogo">
-                <img src='logo/html.png'>
-                <img src='logo/css.png'>
-                <img src='logo/js.png'>
-                <img src='logo/node.png'>
-                <img src='logo/npm.png'>
-                <img src='logo/vsc.png'>
-                <img src='logo/git.png'>
-        </div>
-    </section>
+    <div class="service">
+        <h3>Github</h3>
+        <p>I'm working on open source software which is the awesome way to learn new skills 
+             and collaborate with bright programmers from whom I can learn a lot.
+        </p>
+        </div><!-- / service -->
+    </div><!-- / services -->
+</div>
+
+
+
+    <a href="#myWork" class="btn">My work</a>
+    </div>
+</section>
 
     <!--My work -->
-    <section class="my-work" id="work">
+    <section class="my-work" id="myWork">
         <h2 class="section__title">My work</h2>
         <p class="section__subtitle--my-work">Some portion of my work</p>
 
-        <div class="portfolio">
-            <!--Portfolio itea 01-->
-            <a href="" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_18-36-49.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
 
-                <!--Portfolio itea 01-->
-                <a href="" class="portfolio__iteam">
-                    <video src="my-work/2022-10-13_19-00-38.mp4"
-                    type="video/mp4" muted class="vid" width="100%" height="100%">
-                </video>
-                </a>
-                
+<div class="portfolio">
+    <!--Portfolio itea 01-->
+    <a href="https://mphojames9.github.io/landing-page/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_18-36-49.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
 
-            <!--Portfolio itea 01-->
-            <a href="" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_18-58-08.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
+        <!--Portfolio itea 02-->
+        <a href="https://mphojames9.github.io/RSP-Game/" class="portfolio__iteam">
+            <video src="my-work/2022-10-13_19-00-38.mp4"
+            type="video/mp4" muted class="vid" width="100%" height="100%">
+        </video>
+        </a>
+        
 
-            <!--Portfolio itea 01-->
-            <a href="" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_20-13-56.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
+    <!--Portfolio itea 03-->
+    <a href="https://mphojames9.github.io/Memory-card-game/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_18-58-08.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
 
-            <!--Portfolio itea 01-->
-            <a href="" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_20-10-56.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
+    <!--Portfolio itea 04-->
+    <a href=" https://mphojames9.github.io/SketchPad/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_20-13-56.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
 
-            <!--Portfolio itea 01-->
-            <a href="#" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_20-19-21.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
+    <!--Portfolio itea 05-->
+    <a href="https://mphojames9.github.io/Tic-Tac-Toe/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_20-10-56.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
 
-            <a href="#" class="portfolio__iteam">
-                <video src="my-work/2022-10-13_20-23-25.mp4"
-                type="video/mp4" muted class="vid" width="100%" height="100%">
-                   </video>
-            </a>
-        </div>
-    </section>
+    <!--Portfolio itea 06-->
+    <a href="https://mphojames9.github.io/information-page/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_20-19-21.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
 
-    <footer id="footer">
-        <a href="" class="footer__link">Email: mphojames9@gmail.com</a><br/>
-        <a href="" class="footer__link">Phone: (+27)83 369 8593</a>
+    <a href="https://mphojames9.github.io/ToDo-list-application/" class="portfolio__iteam">
+        <video src="my-work/2022-10-13_20-23-25.mp4"
+        type="video/mp4" muted class="vid" width="100%" height="100%">
+           </video>
+    </a>
+</div>
+</section>
 
-        <ul class="social-list">
-            <li class="social-list__iteam"><a class="fa fa-facebook"
-            href="https://codepen.io"></a></li>
-            <li class="social-list__iteam"><a class="fa fa-twitter"
-            href="https://codepen.io"></a></li>
-            <li class="social-list__iteam"><a class="fa fa-linkedin"
-            href="https://codepen.io"></a></li>
-            <li class="social-list__iteam"><a class="fa fa-instagram"
-            href="https://codepen.io"></a></li>
-        </ul>
-            <!--Scroll button-->
-    <button onclick="topFunction()" id="scroolBtn" title="Go to top">Top</button>
-    </footer>
+<footer id="footer">
+    <a href="" class="footer__link">Email: mphojames9@gmail.com</a><br/>
+    <a href="" class="footer__link">Phone: (+27)69 117 1026</a>
+
+    <ul class="social-list">
+        <li class="social-list__iteam"><a class="fa fa-facebook"
+        href="https://codepen.io"></a></li>
+        <li class="social-list__iteam"><a class="fa fa-twitter"
+        href="https://codepen.io"></a></li>
+        <li class="social-list__iteam"><a class="fa fa-linkedin"
+        href="https://codepen.io"></a></li>
+        <li class="social-list__iteam"><a class="fa fa-instagram"
+        href="https://codepen.io"></a></li>
+    </ul>
+        <!--Scroll button-->
+<button onclick="topFunction()" id="scroolBtn" title="Go to top">Top</button>
+</footer>
 </body>
 <script src="index.js"></script>
 </html>
+  
