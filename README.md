@@ -1,1 +1,1 @@
-# personal-potfolio
+# personal-potfoli
