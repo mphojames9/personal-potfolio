@@ -69,6 +69,11 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+.footer-col .hover-yellow a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+	background-color: yellow;
+}
 
 /*responsive*/
 @media(max-width: 767px){

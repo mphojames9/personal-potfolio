@@ -117,13 +117,17 @@ nav .btn:active {
 
 .content {
     margin: auto;
-    width: 85%;
+    /* width: 85%; */
 }
 
 
 .content h1 {
     color: var(--clr-light);
     margin: 20px 0px 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10vw;
+    margin-right: 0;
     font-size: 75px;
 }
 
@@ -136,6 +140,9 @@ nav .btn:active {
 .content h4 {
     color: var(--clr-accent__-adj);
     letter-spacing: 2px;
+    margin-left: 10vw;
+    margin-right: 0;
+    margin-bottom: 9vw;
     font-size: 20px;
 }
 
