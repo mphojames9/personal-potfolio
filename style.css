@@ -46,8 +46,10 @@ html {
 .hero{
     width: 100%;
     max-height: fit-content;
+    height: 100vh;
     background-image: url(Background-img/Mpho-Adele-Pic-for-ALX-Portfolio-Project.jpg);
     background-size: cover;
+    /* background-size: contain; */
     background-position: center;
 }
 
@@ -219,6 +221,15 @@ nav .btn:active {
 
     .logo {
         margin-bottom: 0;
+    }
+
+    .hero {
+        /* max-height: fit-content; */
+        height: 130vh;
+    }
+
+    .hero h1 {
+        font-size: 50px;
     }
 }
 /*animation content h4 slides right after 1 second*/
