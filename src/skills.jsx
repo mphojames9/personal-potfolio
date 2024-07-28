@@ -7,14 +7,14 @@ function Skills(){
         <div className="services">
         <div className="service">
         <h3>Websites</h3>
-        <p>I develope and creates websites using web
-             languages such as HTML, CSS, and JavaScript that allow users to
+        <p>I develope websites using JavaScript, React.js, Node.js for Backend, HTML
+             and CSS for a great UI that allow users to
               access and interact with the site.
         </p>
         </div>
 
         <div className="service">
-        <h3>Basic apps/game</h3>
+        <h3>Apps/games</h3>
         <p>I develop applications for personal use, educational apps 
             for kids and fun games that you may love to play.
              This hepls me a lot in improving my javascript skills.
@@ -28,7 +28,7 @@ function Skills(){
         </p>
         </div>
         </div>
-        <a href="#myWork" class="btn">My work</a>
+        <a href="#myWork" className="btn">My work</a>
 </section>
     );
 }
